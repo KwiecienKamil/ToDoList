@@ -43,7 +43,6 @@ const Todo = () => {
     }
   };
 
-
   return (
     <div>
       <div className="min-w-[800px] px-2 p-4 rounded-lg bg-slate-400 flex items-center flex-col gap-4 relative">
@@ -95,7 +94,7 @@ const Todo = () => {
                       dispatch(
                         updateTask({ id: todo.id, title: updatedInputValue })
                       );
-                      SetUpdatedInputValue('')
+                      SetUpdatedInputValue("");
                     }}
                     className="p-3 bg-yellow-500 rounded-r-md font-semibold mr-8"
                   >
